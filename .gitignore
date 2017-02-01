@@ -1,3 +1,11 @@
 *.bin
+*.so
+*.o
 *.bag
 Vocabulary/ORBvoc.txt
+Vocabulary/ORBvoc.txt.bin
+build/*
+Thirdparty/DBoW2/build/*
+Thirdparty/g2o/build/*
+Examples/ROS/ORB_SLAM2/build/*
+

@@ -1,1 +1,0 @@
-/usr/bin/c++  -fPIC   -shared -Wl,-soname,libgtest.so -o libgtest.so CMakeFiles/gtest.dir/src/gtest-all.cc.o  -L/home/mark/orbslam/ORB_SLAM2/Examples/ROS/ORB_SLAM2/build/gtest/src -lpthread -Wl,-rpath,/home/mark/orbslam/ORB_SLAM2/Examples/ROS/ORB_SLAM2/build/gtest/src 

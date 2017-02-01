@@ -1,0 +1,83 @@
+[0m[ INFO] [1485939391.322767484]: Got 'voc_path' : /home/mark/ORB_SLAM2/Vocabulary/ORBvoc.txt[0m
+[0m[ INFO] [1485939391.323961917]: Launching orb_slam2 mono with /home/mark/ORB_SLAM2/Vocabulary/ORBvoc.txt /home/mark/ORB_SLAM2/Examples/Monocular/KITTI04-12.yaml [0m
+[0m[ INFO] [1485939391.323980523]: Image grabbed from : /camera/image_raw, publishing on id : camera [0m
+
+ORB-SLAM2 Copyright (C) 2014-2016 Raul Mur-Artal, University of Zaragoza.
+This program comes with ABSOLUTELY NO WARRANTY;
+This is free software, and you are welcome to redistribute it
+under certain conditions. See LICENSE.txt.
+
+Input sensor was set to: Monocular
+
+Loading ORB Vocabulary. This could take a while...
+[0m[ INFO] [1485939391.307548519]: Opening /home/mark/ORB_SLAM2/Examples/ROS/ORB_SLAM2/launch/kitti00.bag[0m
+
+Waiting 0.2 seconds after advertising topics... done.
+
+Hit space to toggle paused, or 's' to step.
+ [RUNNING]  Bag Time:      0.333333   Duration: 0.000000 / 3026.666667      [RUNNING]  Bag Time:      0.423993   Duration: 0.090660 / 3026.666667     Vocabulary loaded!
+
+
+Camera Parameters: 
+- fx: 707.091
+- fy: 707.091
+- cx: 601.887
+- cy: 183.11
+- k1: 0
+- k2: 0
+- p1: 0
+- p2: 0
+- fps: 10
+- color order: RGB (ignored if grayscale)
+
+ORB Extractor Parameters: 
+- Number of Features: 2000
+- Scale Levels: 8
+- Scale Factor: 1.2
+- Initial Fast Threshold: 20
+- Minimum Fast Threshold: 7
+- Fast corner angle compute: 0
+ [RUNNING]  Bag Time:      0.524638   Duration: 0.191305 / 3026.666667      [RUNNING]  Bag Time:      0.625363   Duration: 0.292030 / 3026.666667      [RUNNING]  Bag Time:      0.665610   Duration: 0.332277 / 3026.666667      [RUNNING]  Bag Time:      0.766217   Duration: 0.432883 / 3026.666667      [RUNNING]  Bag Time:      0.857018   Duration: 0.523685 / 3026.666667      [RUNNING]  Bag Time:      0.957857   Duration: 0.624524 / 3026.666667      [RUNNING]  Bag Time:      0.998408   Duration: 0.665075 / 3026.666667      [RUNNING]  Bag Time:      1.099107   Duration: 0.765773 / 3026.666667      [RUNNING]  Bag Time:      1.199924   Duration: 0.866591 / 3026.666667      [RUNNING]  Bag Time:      1.300774   Duration: 0.967441 / 3026.666667      [RUNNING]  Bag Time:      1.331209   Duration: 0.997876 / 3026.666667      [RUNNING]  Bag Time:      1.431861   Duration: 1.098528 / 3026.666667     New Map created with 178 points
+ [RUNNING]  Bag Time:      1.532556   Duration: 1.199222 / 3026.666667      [RUNNING]  Bag Time:      1.633206   Duration: 1.299872 / 3026.666667      [RUNNING]  Bag Time:      1.663406   Duration: 1.330073 / 3026.666667      [RUNNING]  Bag Time:      1.764466   Duration: 1.431133 / 3026.666667      [RUNNING]  Bag Time:      1.865616   Duration: 1.532282 / 3026.666667      [RUNNING]  Bag Time:      1.967145   Duration: 1.633812 / 3026.666667      [RUNNING]  Bag Time:      1.997675   Duration: 1.664341 / 3026.666667      [RUNNING]  Bag Time:      2.099523   Duration: 1.766189 / 3026.666667      [RUNNING]  Bag Time:      2.191030   Duration: 1.857697 / 3026.666667      [RUNNING]  Bag Time:      2.292555   Duration: 1.959222 / 3026.666667      [RUNNING]  Bag Time:      2.333304   Duration: 1.999970 / 3026.666667      [RUNNING]  Bag Time:      2.424949   Duration: 2.091616 / 3026.666667      [RUNNING]  Bag Time:      2.526835   Duration: 2.193502 / 3026.666667      [RUNNING]  Bag Time:      2.628858   Duration: 2.295524 / 3026.666667      [RUNNING]  Bag Time:      2.659399   Duration: 2.326066 / 3026.666667      [RUNNING]  Bag Time:      2.761515   Duration: 2.428182 / 3026.666667      [RUNNING]  Bag Time:      2.863073   Duration: 2.529740 / 3026.666667      [RUNNING]  Bag Time:      2.964867   Duration: 2.631534 / 3026.666667      [RUNNING]  Bag Time:      2.995425   Duration: 2.662092 / 3026.666667      [RUNNING]  Bag Time:      3.097377   Duration: 2.764044 / 3026.666667      [RUNNING]  Bag Time:      3.199142   Duration: 2.865809 / 3026.666667      [RUNNING]  Bag Time:      3.290978   Duration: 2.957645 / 3026.666667      [RUNNING]  Bag Time:      3.331982   Duration: 2.998649 / 3026.666667      [RUNNING]  Bag Time:      3.423593   Duration: 3.090260 / 3026.666667      [RUNNING]  Bag Time:      3.525135   Duration: 3.191802 / 3026.666667      [RUNNING]  Bag Time:      3.626623   Duration: 3.293289 / 3026.666667      [RUNNING]  Bag Time:      3.657287   Duration: 3.323954 / 3026.666667      [RUNNING]  Bag Time:      3.758898   Duration: 3.425565 / 3026.666667      [RUNNING]  Bag Time:      3.860644   Duration: 3.527310 / 3026.666667      [RUNNING]  Bag Time:      3.962041   Duration: 3.628708 / 3026.666667      [RUNNING]  Bag Time:      3.992535   Duration: 3.659202 / 3026.666667      [RUNNING]  Bag Time:      4.094161   Duration: 3.760828 / 3026.666667      [RUNNING]  Bag Time:      4.195769   Duration: 3.862435 / 3026.666667      [RUNNING]  Bag Time:      4.296699   Duration: 3.963365 / 3026.666667      [RUNNING]  Bag Time:      4.327066   Duration: 3.993733 / 3026.666667      [RUNNING]  Bag Time:      4.428374   Duration: 4.095040 / 3026.666667      [RUNNING]  Bag Time:      4.529686   Duration: 4.196352 / 3026.666667      [RUNNING]  Bag Time:      4.630974   Duration: 4.297641 / 3026.666667      [RUNNING]  Bag Time:      4.661324   Duration: 4.327991 / 3026.666667      [RUNNING]  Bag Time:      4.763165   Duration: 4.429831 / 3026.666667      [RUNNING]  Bag Time:      4.864653   Duration: 4.531320 / 3026.666667      [RUNNING]  Bag Time:      4.966226   Duration: 4.632893 / 3026.666667      [RUNNING]  Bag Time:      4.996681   Duration: 4.663348 / 3026.666667      [RUNNING]  Bag Time:      5.098430   Duration: 4.765096 / 3026.666667      [RUNNING]  Bag Time:      5.200104   Duration: 4.866771 / 3026.666667      [RUNNING]  Bag Time:      5.291518   Duration: 4.958185 / 3026.666667      [RUNNING]  Bag Time:      5.332115   Duration: 4.998782 / 3026.666667      [RUNNING]  Bag Time:      5.423828   Duration: 5.090495 / 3026.666667      [RUNNING]  Bag Time:      5.525406   Duration: 5.192072 / 3026.666667      [RUNNING]  Bag Time:      5.627005   Duration: 5.293671 / 3026.666667      [RUNNING]  Bag Time:      5.657369   Duration: 5.324036 / 3026.666667      [RUNNING]  Bag Time:      5.758943   Duration: 5.425610 / 3026.666667      [RUNNING]  Bag Time:      5.860340   Duration: 5.527007 / 3026.666667      [RUNNING]  Bag Time:      5.962022   Duration: 5.628689 / 3026.666667      [RUNNING]  Bag Time:      5.992456   Duration: 5.659123 / 3026.666667      [RUNNING]  Bag Time:      6.094106   Duration: 5.760773 / 3026.666667      [RUNNING]  Bag Time:      6.195837   Duration: 5.862504 / 3026.666667      [RUNNING]  Bag Time:      6.297715   Duration: 5.964382 / 3026.666667      [RUNNING]  Bag Time:      6.328103   Duration: 5.994770 / 3026.666667      [RUNNING]  Bag Time:      6.429556   Duration: 6.096223 / 3026.666667      [RUNNING]  Bag Time:      6.531020   Duration: 6.197686 / 3026.666667      [RUNNING]  Bag Time:      6.632289   Duration: 6.298956 / 3026.666667      [RUNNING]  Bag Time:      6.662672   Duration: 6.329339 / 3026.666667      [RUNNING]  Bag Time:      6.760093   Duration: 6.426760 / 3026.666667     
+... logging to /home/mark/.ros/log/53024984-e85c-11e6-9a11-acb57d171e8b/roslaunch-Mark-Robot-5932.log
+Checking log directory for disk usage. This may take awhile.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;launch_kitti.launch
+[1mstarted roslaunch server http://Mark-Robot:44171/[0m
+
+SUMMARY
+========
+
+PARAMETERS
+ * /mono_orbslam2/config_path: /home/mark/ORB_SL...
+ * /mono_orbslam2/voc_path: /home/mark/ORB_SL...
+ * /rosdistro: kinetic
+ * /rosversion: 1.12.6
+
+NODES
+  /
+    link1_broadcaster (tf/static_transform_publisher)
+    mono_orbslam2 (orb_slam2/mono)
+    player (rosbag/play)
+    rviz_orbslam2 (rviz/rviz)
+
+auto-starting new master
+[1mprocess[master]: started with pid [5943][0m
+[1mROS_MASTER_URI=http://localhost:11311[0m
+]2;launch_kitti.launch http://localhost:11311
+[1msetting /run_id to 53024984-e85c-11e6-9a11-acb57d171e8b[0m
+[1mprocess[rosout-1]: started with pid [5956][0m
+started core service [/rosout]
+[1mprocess[link1_broadcaster-2]: started with pid [5963][0m
+[1mprocess[mono_orbslam2-3]: started with pid [5974][0m
+[1mprocess[rviz_orbslam2-4]: started with pid [5983][0m
+[1mprocess[player-5]: started with pid [5986][0m
+[player-5] killing on exit
+[rviz_orbslam2-4] killing on exit
+[link1_broadcaster-2] killing on exit
+[rosout-1] killing on exit
+[master] killing on exit
+shutting down processing monitor...
+... shutting down processing monitor complete
+[1mdone[0m
