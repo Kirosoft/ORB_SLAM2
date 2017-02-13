@@ -19,21 +19,21 @@
 */
 
 
-#include<iostream>
-#include<algorithm>
-#include<fstream>
-#include<chrono>
+#include <iostream>
+#include <algorithm>
+#include <fstream>
+#include <chrono>
 
-#include<ros/ros.h>
-#include<cv_bridge/cv_bridge.h>
-#include<tf/transform_broadcaster.h>
-#include<tf/transform_broadcaster.h>  
-#include<geometry_msgs/PoseStamped.h>
-#include<sensor_msgs/PointCloud.h>
-#include<geometry_msgs/Point32.h>
+#include <ros/ros.h>
+#include <cv_bridge/cv_bridge.h>
+#include <tf/transform_broadcaster.h>
+#include <tf/transform_broadcaster.h>
+#include <geometry_msgs/PoseStamped.h>
+#include <sensor_msgs/PointCloud.h>
+#include <geometry_msgs/Point32.h>
 #include "std_srvs/Empty.h"
 
-#include<opencv2/core/core.hpp>
+#include <opencv2/core/core.hpp>
 #include <thread>
 
 
@@ -101,10 +101,10 @@ int main(int argc, char **argv)
     std::string publish_topic_path ;
 
     if(nodeHandler.getParam("voc_path", voc_path)){
-   	ROS_INFO("Got 'voc_path' : %s",  voc_path.c_str());
+    	ROS_INFO("Got 'voc_path' : %s",  voc_path.c_str());
     }else{
-	ROS_ERROR("Failed to get param 'voc_path'");
-	ros::shutdown();
+    	ROS_ERROR("Failed to get param 'voc_path'");
+    	ros::shutdown();
         return 1; 
     }
     if(!nodeHandler.getParam("config_path", config_path)){

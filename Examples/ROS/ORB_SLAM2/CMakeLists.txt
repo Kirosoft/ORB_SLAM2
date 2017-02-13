@@ -26,7 +26,7 @@ LIST(APPEND CMAKE_MODULE_PATH ${ORB_SLAM2_SOURCE_DIR}/cmake_modules)
 
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
 set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS}  -Wall  -O3 -march=native")
-set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wall  -O3 -march=native")
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wall  -g -O0 -march=native")
 
 
 set(orb_slam2_INCLUDE_DIRS
