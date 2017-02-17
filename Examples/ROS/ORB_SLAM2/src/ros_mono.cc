@@ -112,7 +112,7 @@ int main(int argc, char **argv)
         ros::shutdown();
         return 1;
     }
-    nodeHandler.param<std::string>("image_topic", image_topic_name, "/camera/image_raw");
+    nodeHandler.param<std::string>("image_topic", image_topic_name, "/Mono/camera/image_raw");
     nodeHandler.param<std::string>("publish_topic", publish_topic_id, "camera");
     publish_topic_path = "/"+publish_topic_id+"/";
 
